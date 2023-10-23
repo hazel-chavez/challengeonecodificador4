@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
    background: #E5E5E5;
@@ -10,14 +11,16 @@ textarea{
   background: #E5E5E5;
  
 }
-::placeholder{color: #0A3871}
+::placeholder{color: #515153}
   textarea:focus{/*para que no aparezca el recuadro del textarea cuando estemos dentro del textarea*/
     outline: none;
+     
 }
+
 
 .texarea label{
     font-family: 'Inter';
-    font-size: 16px;
+    font-size: clamp(0.5rem,1vw,1rem);
     font-weight: 400;
     line-height: 48px;
     line-height: 150%;
@@ -84,7 +87,12 @@ textarea{
     text-align: center;
     color:#0A3871;
 }
-
+@media screen and(min-width: 768px) and (max-width:1024px){
+    img.muñeco.p-5.d-none.d-md-block{
+        max-width: 150px;
+        
+    }
+}
 
 
     
