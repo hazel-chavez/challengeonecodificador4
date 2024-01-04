@@ -20,7 +20,7 @@ textarea:focus {
 
 .texarea label {
 	font-family: 'Inter';
-	font-size: clamp(0.5rem, 1vw, 1rem);
+	font-size: clamp(0.7rem, 1vw, 1rem);
 	font-weight: 400;
 	line-height: 48px;
 	line-height: 150%;
@@ -30,7 +30,7 @@ textarea:focus {
 	background-color: #fbf2f2;
 	border-radius: 25px;
 	margin: 0 auto;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.6rem;
 	/* height: 944px;*/
 }
 .mensaje-text {
