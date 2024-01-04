@@ -5,7 +5,7 @@
 function encriptar() {
 	document.querySelector('.muñeco').style.display = 'none';
 	document.querySelector('p').style.display = 'none';
-	document.querySelector('.cuadro').style.height = '600px';
+	// document.querySelector('.cuadro').style.height = '600px';
 	document.querySelector('.mensaje-text').style.paddingTop = '1rem';
 	var texto =
 		document.querySelector(
