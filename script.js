@@ -1,3 +1,7 @@
+/**
+ * La función "encriptar" toma la entrada del usuario, reemplaza ciertas letras con cadenas específicas
+ * y muestra el texto cifrado.
+ */
 function encriptar() {
 	document.querySelector('.muñeco').style.display = 'none';
 	document.querySelector('p').style.display = 'none';
@@ -18,6 +22,10 @@ function encriptar() {
 	document.querySelector('#area-texto').value = '';
 }
 
+/**
+ * La función "desencriptar" toma una entrada de texto, reemplaza ciertos patrones con las letras
+ * correspondientes y genera el texto descifrado.
+ */
 function desencriptar() {
 	var texto = document.querySelector('#area-texto').value;
 	var desencriptarTexto = texto
@@ -30,12 +38,14 @@ function desencriptar() {
 	document.querySelector('#area-texto').value;
 }
 
+/**
+ * La función de JavaScript anterior copia el texto de un campo de entrada al portapapeles usando el
+ * método `navigator.clipboard.writeText()`.
+ */
 function copiar() {
 	var text = document.getElementById('mensaje-text').value;
-
 	navigator.clipboard
 		.writeText(text)
-
 		.then(() => {
 			console.log('texto copiado');
 		})

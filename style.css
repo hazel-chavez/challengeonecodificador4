@@ -27,16 +27,20 @@ textarea:focus {
 	color: #0a3871;
 }
 .cuadro {
-	background: #ffff;
+	background-color: #fbf2f2;
 	border-radius: 25px;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
 	/* height: 944px;*/
 }
 .mensaje-text {
-	border: none;
-	background: #ffff;
+	border-radius: 5px;
+	background: #fcf1f1;
+	font-size: clamp(0.9rem, 2vw, 1rem);
+	
 }
 
-.mensaje-text textarea:focus {
+textarea.mensaje-text:focus {
 	outline: none;
 }
 .btn_copiar {
@@ -87,6 +91,8 @@ textarea:focus {
 	text-align: center;
 	color: #0a3871;
 }
+
+
 @media screen and(min-width: 768px) and (max-width: 1024px) {
 	img.muñeco.p-5.d-none.d-md-block {
 		max-width: 150px;
@@ -94,4 +100,6 @@ textarea:focus {
 	.container-button .row {
 		margin: 0;
 	}
+	
+	
 }
